@@ -12,6 +12,9 @@ With this image, you don't need to. Put the image on your ESP, and boot it rescu
 
 Make sure you have recent versions of `mkosi` and `systemd-ukify` installed. AND `cpio`
 
+**Note:** Until https://github.com/systemd/mkosi/commit/dafb2461e61ade8b2cb6f783885be324ad154256 
+is released, you need `mkosi-git` for `FirmwareFiles=` which helps with missing iwlwifi drivers.
+
 First, set a root password:
 
 ```console
