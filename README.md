@@ -10,7 +10,7 @@ With this image, you don't need to. Put the image on your ESP, and boot it rescu
 
 ## How?
 
-Make sure you have recent versions of `mkosi` and `systemd-ukify` installed.
+Make sure you have recent versions of `mkosi` and `systemd-ukify` installed. AND `cpio`
 
 First, set a root password:
 
